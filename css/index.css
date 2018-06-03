@@ -49,8 +49,6 @@ header {
     justify-content: top;
     align-items: center;
     height: 20vh;
-    /* position: sticky;
-    z-index: 2; */
     width: 100%;
 }
 
@@ -69,7 +67,8 @@ article, #about {
     display: flex;
     flex-direction: column;
     text-align: center;
-    z-index: 1;
+    justify-content: center;
+    align-items: center;
 
 }
 

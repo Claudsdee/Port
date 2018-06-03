@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
     <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/backtotop.js"></script>
 
     <link rel="icon" type="image/png" href="images/palm-tree.gif">
 </head>
@@ -16,14 +18,15 @@
 <!-- Nah! Just kidding, you must love the dev tools like I do :D -->
 
 <body>
-    <section id="content">
+    <div id="content">
+        <a name="topofsite"></a>
         <header>
             <h1>C . v . D</h1>
             <nav>
                 <a href="#a-intro">+ About Me +</a>
                 <a href="#a-work"> Work </a>
                 <a href="#a-learn">+ Learnings +</a>
-                <!-- <a href="contact.html">Contact Me</a> -->
+                <a href="#a-contact"> Contact Me +</a>
             </nav>
         </header>
         <a name="a-intro"></a>
@@ -54,6 +57,9 @@
                     </a>
                 </div>
             </div>
+            <a class="back-to-top" style="display: inline;" href="#topofsite">
+                    <i class="fas fa-angle-double-up fa-arrow"></i>
+                </a>
         </div>
         <a name="a-learn"></a>
         <div id="Learnings">
@@ -70,7 +76,10 @@
                     <span class="bold">General Assembly</span> - Front End Web Development 2018</p>
                 <p>
                     <span class="bold">University of Techology Sydney</span> - Bsc Sci Applied Chemistry (hons)</p>
-            </section>
+                    <a class="back-to-top" style="display: inline;" href="#topofsite">
+                            <i class="fas fa-angle-double-up fa-arrow"></i>
+                        </a>
+                </section>
             <br>
             <h2>Skills</h2>
             <article class="about">
@@ -83,22 +92,28 @@
                 <p>Would like to learn more and to develop my skills in JavaScript</p>
             </article>
         </div>
+        <a name="a-contact"></a>
         <footer>
-                <a href="mailto:claudia.daboul@gmail.com">
-                    <i class="far fa-envelope fa-ico"></i>
-                </a>
-                <a href="https://github.com/Claudsdee">
-                    <i class="fab fa-github fa-ico"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/claudia-daboul-880271101/">
-                        <i class="fab fa-linkedin-in fa-ico"></i>
-                </a>
-                <a href="assets/claudia Daboul Web dev resume.pdf">
-                        <i class="far fa-file-pdf fa-ico"></i>
-                </a>
-            </footer>
-    </section>
+            <a href="mailto:claudia.daboul@gmail.com">
+                <i class="far fa-envelope fa-ico"></i>
+            </a>
+            <a href="https://github.com/Claudsdee">
+                <i class="fab fa-github fa-ico"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/claudia-daboul-880271101/">
+                <i class="fab fa-linkedin-in fa-ico"></i>
+            </a>
+            <a href="assets/claudia Daboul Web dev resume.pdf">
+                <i class="far fa-file-pdf fa-ico"></i>
+            </a>
+            
+        </footer>
+        <a class="back-to-top" style="display: inline;" href="#topofsite">
+                <i class="fas fa-angle-double-up fa-arrow"></i>
+            </a>
+    </div>
 
 </body>
+
 
 </html>

@@ -82,9 +82,23 @@ nav {
     height: 80vh;
     align-items: center;
 }
+#display {
+    display: flex;
+}
+
+.project {
+    width: 25vw;
+    padding: 1rem;
+}
 
 .title {
     text-align: center;
     font-size: 1rem;
-    
+
+}
+
+.info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
 }

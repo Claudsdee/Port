@@ -63,16 +63,15 @@ header {
     margin-right: 10%;
     background: url(../images/palm-tree-opa.png) no-repeat top center;
     background-size: contain;
-    text-align: center;
 }
 
-/* article, #about {
+article, #about {
     display: flex;
     flex-direction: column;
     text-align: center;
     z-index: 1;
 
-} */
+}
 
 #palmtree {
     height: 30%;

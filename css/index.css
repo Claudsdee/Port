@@ -109,3 +109,17 @@ nav {
 #educate > p {
     text-align: center;
 }
+
+
+footer {
+    display: flex;
+    height: 15vh;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-around;
+}
+
+.fa-ico {
+    font-size: 3rem;
+}

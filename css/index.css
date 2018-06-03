@@ -63,6 +63,7 @@ header {
     margin-right: 10%;
     background: url(../images/palm-tree-opa.png) no-repeat top center;
     background-size: contain;
+    text-align: center;
 }
 
 /* article, #about {

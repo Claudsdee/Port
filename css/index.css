@@ -49,8 +49,8 @@ header {
     justify-content: top;
     align-items: center;
     height: 20vh;
-    position: sticky;
-    z-index: 2;
+    /* position: sticky;
+    z-index: 2; */
     width: 100%;
 }
 

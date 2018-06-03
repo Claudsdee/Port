@@ -65,13 +65,13 @@ header {
     background-size: contain;
 }
 
-article, #about {
+/* article, #about {
     display: flex;
     flex-direction: column;
     text-align: center;
     z-index: 1;
 
-}
+} */
 
 #palmtree {
     height: 30%;

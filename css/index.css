@@ -59,8 +59,7 @@ header {
 
 nav {
     font-family: 'Nova Mono', monospace;
-    font-size: 1.3rem;
-    letter-spacing: 1rem;
+    font-size: 2rem;
 }
 
 #intro {
@@ -91,6 +90,9 @@ nav {
 .project {
     width: 25vw;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .title {

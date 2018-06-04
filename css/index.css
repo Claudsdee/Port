@@ -140,15 +140,15 @@ footer {
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 14px;
-    }
-
-    h2 {
         font-size: 12px;
     }
 
-    p {
+    h2 {
         font-size: 10px;
+    }
+
+    p {
+        font-size: 8px;
     }
     
     #content {

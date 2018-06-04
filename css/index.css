@@ -139,6 +139,18 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+    
     #content {
         background-color: rgb(13, 12, 29);
     }

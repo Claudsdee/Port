@@ -109,10 +109,6 @@ nav {
     color: rgb(252, 237, 197);
 }
 
-/* #Learnings {
-    height: 80vh;
-} */
-
 .bold {
     font-weight: bold;
 }
@@ -139,4 +135,19 @@ footer {
 
 .fa-arrow {
     font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #content {
+        background-color: rgb(13, 12, 29);
+    }
+
+    #intro {
+        background-color: rgb(22, 27, 83);
+    }
+
+    #Learnings {
+        background-color: rgb(22, 27, 83);
+    }
 }

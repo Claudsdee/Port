@@ -149,7 +149,100 @@ footer {
     font-size: 2rem;
 }
 
+/* CSS for 800px to 700px */
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 21px;
+    }
 
+    nav {
+        font-size: 19px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 17px;
+        }
+    
+    #content {
+        background: unset;
+    }
+
+    #intro {
+        background-color: rgb(22, 27, 83);
+        width: 100%;
+    }
+
+    .about {
+        margin: unset;
+    }
+
+    .about > #palm-tree {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+    }
+
+    #work {
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+        align-items: center;
+    }
+    
+
+    .title {
+        font-size: 17px;
+    }
+
+    .info {
+        font-size: 15px;
+    }
+
+    .eg {
+        width: 90%;
+    }
+
+    #Learnings {
+        background-color: rgb(22, 27, 83);
+    }
+    
+    #skills {
+        background-color: rgb(13, 12, 29);
+        height: 40vh;
+    }
+
+    .fa-ico {
+        font-size: 16px;
+    }
+    
+    .fa-arrow {
+        font-size: 16px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        background-color: rgb(22, 27, 83);
+        padding: unset;
+    }
+
+    #ico {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+
+/* CSS FOR 600px or less */
 @media only screen and (max-width: 800px) {
     h1 {
         font-size: 18px;

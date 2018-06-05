@@ -134,6 +134,7 @@ footer {
 }
 
 .fa-arrow {
+    display: flex;
     font-size: 2rem;
 }
 

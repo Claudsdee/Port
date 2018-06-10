@@ -3,9 +3,6 @@
     -moz-box-sizing: border-box; /* Firexfox */
     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
     box-sizing: border-box; /* IE */
-    -webkit-flex: auto; /* Safari 6.1+ */
-    -ms-flex: auto; /* IE 10 */ 
-    flex: auto;
 }
 
 /* Clear fix hack */
